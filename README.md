@@ -6,7 +6,7 @@
 
 # Truffle Solc Select
 
-This plugin can be used to compile smart contracts that require multiple solidity compiler versions. It does this by installing various versions on install and automatically select the right version based on the smart contract pragma version.
+This plugin can be used to compile smart contracts that require multiple solidity compiler versions. It does this by installing various versions on install and automatically selects the right version based on the smart contract pragma version.
 
 
 **Note**: This feature is new and still in a super experimental state. Not ready for production!!!!

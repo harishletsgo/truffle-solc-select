@@ -1,17 +1,15 @@
 {
   "name": "truffle-solc-select",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Handles multiple solc version compilation between smart contracts using the external compiler",
   "repository": "https://github.com/harishperfect/truffle-solc-select",
-  "main": "bin/solc-compiler-select.js",
+  "main": "solc-multicompile.js",
   "files": [
-    "constants.js",
-    "util.js",
-    "verify.js",
+    "solc-multicompile.js",
     "truffle-plugin.json"
   ],
   "scripts": {
-    "preinstall": "sh bin/scripts/install_solc.sh"
+    "postinstall": "sh bin/scripts/install_solc.sh"
   },
   "keywords": [
     "truffle",
@@ -24,11 +22,7 @@
   "author": "Harish Prasanna <harish@metasquare.com>",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "^0.8.3",
-    "truffle-config": "^1.0.4",
-    "truffle-contract-sources": "^0.0.1",
-    "truffle-error": "^0.0.2",
-    "truffle-expect": "^0.0.3"
+    "shelljs": "^0.8.3"
   },
   "bin": {
     "solc": "bin/scripts/solc",
