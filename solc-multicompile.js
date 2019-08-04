@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 var shell = require("shelljs");
+var fs = require('fs');
+
 /**
  * Outputs `Hello, World!` when running `truffle run hello`,
  * or `Hello, ${name}` when running `truffle run hello [name]`
@@ -27,6 +29,17 @@ solc_versions.forEach(function(element) {
     url = "curl -s -f -L \"https:\/\/github.com\/ethereum\/solidity\/releases\/download\/"+element+"\/solc-static-linux\" -o \""+solc+"\""
     var newver = shell.exec(url)
 });
+
+   const contractDirectory = config.contracts_directory;
+   fs.readdir(contractDirectory, (err, files) => {
+	  files.forEach(file => {
+	  	var reader = new FileReader();
+	    shell.exec("solc-select 0.4.25")
+	    shell.exec("solc-default -o build/ -ast -asm file")
+
+	  });
+	});
+
 }
 
 
