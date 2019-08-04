@@ -1,8 +1,4 @@
-<table><tr>
- <td>Plugin extension: </td>
- <td><a href=https://truffleframework.com/img/truffle-logo-dark.svg <a href="" rel="nofollow">![npm](https://img.shields.io/npm/v/truffle.svg)'><img style='vertical-align:middle' src='https://github.com/harishperfect/truffle-solc-select'></td>
- <td><a href='https://img.shields.io/npm/dm/truffle.svg)</a> [![Join the chat at https://gitter.im/consensys/truffle](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/consensys/truffle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)'</td>
-</tr></table>
+[logo]: https://truffleframework.com/img/truffle-logo-dark.svg "Logo Title Plugin Extension"
 
 # Truffle Solc Select
 
