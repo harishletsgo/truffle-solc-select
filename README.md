@@ -1,5 +1,14 @@
-![alt text][logo]
-[logo]: https://truffleframework.com/img/truffle-logo-dark.svg "Logo Title Plugin Extension"
+<img src="https://truffleframework.com/img/truffle-logo-dark.svg" width="200">
+
+[![npm](https://img.shields.io/npm/v/truffle.svg)](https://www.npmjs.com/package/truffle)
+[![npm](https://img.shields.io/npm/dm/truffle.svg)](https://www.npmjs.com/package/truffle)
+[![Join the chat at https://gitter.im/consensys/truffle](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/consensys/truffle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/trufflesuite/truffle.svg?branch=next)](https://travis-ci.org/trufflesuite/truffle)
+[![Coverage Status](https://coveralls.io/repos/github/trufflesuite/truffle/badge.svg?branch=next)](https://coveralls.io/github/trufflesuite/truffle?branch=next)
+
+-----------------------
+
+
 
 # Truffle Solc Select
 
