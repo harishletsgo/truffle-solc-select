@@ -11,7 +11,7 @@
     "truffle-plugin.json"
   ],
   "scripts": {
-    "preinstall": "sh bin/scripts/install_solc.sh",
+    "preinstall": "sh bin/scripts/install_solc.sh"
   },
   "keywords": [
     "truffle",
@@ -24,7 +24,7 @@
   "author": "Harish Prasanna <harish@metasquare.com>",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.3"
   },
   "bin": {
     "solc": "bin/scripts/solc",

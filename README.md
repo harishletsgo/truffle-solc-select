@@ -41,7 +41,7 @@ You can do anything you'd like within this script, so long as the callback is ca
 
 1.  Install the plugin from NPM.
 
-        npm install --save-dev truffle-plugin-hello
+        npm install --save-dev truffle-solc-select
 
 2.  Add a `plugins` section to your Truffle config.
 
@@ -49,11 +49,10 @@ You can do anything you'd like within this script, so long as the callback is ca
           /* ... rest of truffle-config */
 
           plugins: [
-            "truffle-plugin-hello"
+            "truffle-solc-select"
           ]
         }
 
 3.  Run the command
 
-        $ truffle run hello
-        Hello, World!
+        $ truffle run multicompile

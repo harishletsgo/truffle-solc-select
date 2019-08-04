@@ -1,5 +1,5 @@
 {
     "commands": {
-        "multicompile": "solc-select.js"
+        "multicompile": "solc-compile-select.js"
     }
 }
