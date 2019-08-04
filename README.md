@@ -1,3 +1,4 @@
+![alt text][logo]
 [logo]: https://truffleframework.com/img/truffle-logo-dark.svg "Logo Title Plugin Extension"
 
 # Truffle Solc Select
